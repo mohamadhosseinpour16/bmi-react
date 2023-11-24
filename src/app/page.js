@@ -1,6 +1,11 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import ComponentCard from "./component/component-card/card";
+import ComponentImg from "./component/component-img/img";
 
 export default function Home() {
-  return <h1>BMI APP</h1> ;
+  return (
+    <>
+      <ComponentCard />
+      <ComponentImg />
+    </>
+  );
 }

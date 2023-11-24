@@ -78,6 +78,10 @@
 }
 body{
   margin: 0;
-  background-color: white;
+  background-color: #4F4A45;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
