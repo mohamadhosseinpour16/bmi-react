@@ -1,3 +1,4 @@
+'use client'
 import ComponentCard from "./component/component-card/card";
 import ComponentImg from "./component/component-img/img";
 
